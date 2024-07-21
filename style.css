@@ -1,0 +1,801 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.white{
+    position:fixed;
+    top:0;
+    background:rgb(252, 251, 251);
+    width:100%;
+    height:51px;
+  }
+  .white ul{
+    list-style-type:none;
+    padding:0;
+  }
+  
+  .white ul li{
+    display:inline-block;
+    width:100px;
+    color:red;
+  }
+  
+  .blue{
+    position:fixed;
+    top:0;
+    background:blue;
+    width:100%;
+    height:50px;
+  }
+.navbar{
+    margin:0px;
+    padding:0px;
+    width: 100%;
+}
+.navbar-toggler{
+    margin-right: 100px;
+}
+.image{
+    height: 100px;
+    width: 120px;
+   
+}
+.fa-solid{
+    color: rgb(12, 19, 149);
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.banner{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+.carouselpara{
+    margin-top: -400px;
+    font-size: 90px;
+    text-transform: uppercase;
+    font-weight: bold;
+    overflow: hidden;
+}
+.carouselpara1{
+    font-size: 30px;
+    overflow: hidden;
+}
+.carousel-inner .carousel-item{
+    height: 100vh;
+    overflow: hidden;
+}
+.image2{
+    height: 420px;
+    width: 680px;
+    margin-left: 80px;
+    margin-top: 15px;
+    
+}
+.image3{
+    border: 4px solid;
+    border-color: rgb(5, 73, 107);
+    height:350px;
+    width: 550px;
+    margin-left: 100px;
+    margin-top: 15px;
+
+}
+.colpara1{
+    margin-top: 15px;
+    font-family: 'Sometype Mono', monospace;
+    text-align: center;
+    font-weight: bold;
+    font-size:22px;
+   
+    
+}
+.colpara2{
+    font-family: 'Roboto Mono', monospace;
+        font-weight: bold;
+font-size: 48px;
+text-align: center;
+    
+}
+.colpara3{
+    padding: 0px 100px 0px 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+.colpara-1{
+    margin-top: 15px;
+    font-family: 'Sometype Mono', monospace;
+    text-align: left;
+    font-weight: bold;
+    font-size:22px;
+    margin-left: 80px;
+}
+.colpara-2{
+    font-family: 'Roboto Mono', monospace;
+        font-weight: bold;
+font-size: 42px;
+    text-align: left;
+    margin-left: 80px;
+}
+.colpara-3{
+    margin-left: 80px;
+    text-align:left;
+    font-weight: bold;
+    font-size: 15px;
+}
+.p1{
+    margin-top: 20px;
+    color: rgb(20, 127, 170);
+    font-size: 150px;
+    font-family: 'Roboto Slab', serif;
+    
+}
+.p2{
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+.aboutus{
+    padding-bottom: 50px;
+}
+.font{
+    margin-right: 80px;
+}
+.contactus{
+    margin-left: 80px;
+    padding-bottom: 50px;
+}
+
+.btn1{
+    
+    margin-top: 50px;
+}
+.btn1:hover{
+ background-color: rgb(216, 11, 79);
+ 
+}
+
+
+.fa-brands{
+    font-size: 25px;
+    padding: 10px;
+    margin-left: 15px;
+    color: white;
+    margin-bottom: 200px;
+}
+.fa-brands:hover{
+    color: rgb(234, 15, 11);
+}
+.imagefooter{
+    height: 100px;
+    width: 120px;
+
+}
+.valet{
+    margin-top: -80px;
+    margin-left: 100px;
+}
+.btn4:hover{
+    background-color: rgb(163, 29, 136);
+}
+.nav-link{
+    color: rgb(0, 0, 0);
+}
+.nav-link:hover{
+    color: rgb(21, 39, 237);
+}
+.card{
+    overflow: hidden;
+}
+.cardimg{
+    transition: 0.25s;
+}
+.cardimg:hover{
+    transform: scale(1.1);
+}
+
+.up-arrow{
+    float: right;
+    margin: 30px 30px 30px 0px;
+   
+}
+
+
+
+
+.imgsize{
+    height: 200px;
+    width: 300px;
+}
+.size{
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+    
+}
+#offcanvasNavbar{
+    margin-left: 20px;
+}
+.imagelandingpage{
+    width: 100%;
+    height: 100vh;
+    margin-top: -500px;
+}
+.imagelandingpage{
+    width: 100%;
+    height: 100vh;
+    margin-top:-130px ;
+}
+.landingpage{
+   background-repeat: no-repeat; 
+   background-size: cover;
+   width: 100%;
+}
+#carouselExampleCaptions{
+    margin-top: 50px;
+}
+.hotelimage{
+    width:88.5%;
+    height: 100vh;
+    margin-top: 50px;
+    margin-left: 90px;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: rgb(8, 82, 116);
+}
+.p3{
+    margin-top: 30px;
+    color: rgb(15, 103, 140);
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: 'Roboto Slab', serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.packages {
+    margin-top: 30px;
+}
+
+.card:hover {
+    border: 2px solid;
+    border-color: rgb(219, 219, 209);
+    cursor: pointer;
+}
+::-webkit-scrollbar{
+    height: 0px;
+    width: 10px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background:rgb(59, 38, 153) ;
+}
+@media only screen and (min-width:600px){ 
+    .white{
+        position:fixed;
+        top:0;
+        background:rgb(252, 251, 251);
+        width:100%;
+        height:80px;
+      }
+      .white ul{
+        list-style-type:none;
+        padding:0;
+      }
+      
+      .white ul li{
+        display:inline-block;
+        width:100px;
+        color:red;
+      }
+      
+      .blue{
+        position:fixed;
+        top:0;
+        background:blue;
+        width:100%;
+        height:50px;
+      }
+    .hotelimage{
+        width:100%;
+        height: 100vh;
+        overflow: hidden;
+       margin-top: 10px;
+       margin-left: -0px;
+       /* padding: 30px; */
+     border-width: 2px;   
+    }  
+   
+    .offcanvas-header{
+        margin-left: -20px;
+    }
+    .offcanvas-body{
+       text-align: center;
+    }   
+    .image2{
+        height: 350px;
+        width: 103%;
+        margin-top: 15px;
+        margin-left: 0px;
+        overflow: hidden;
+    }
+    .image3{
+        height: 350px;
+        width: 103%;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+    .colpara1{
+        margin-top: 15px;
+        font-family: 'Sometype Mono', monospace;
+        text-align: center;
+        font-weight: bold;
+        font-size:20px;
+        margin-left: 30px
+        
+    }
+    .colpara2{
+        font-family: 'Roboto Mono', monospace;
+            font-weight: bold;
+    font-size: 28px;
+        text-align: center;
+        margin-left: 30px
+    }
+    .colpara3{
+        padding: 0px 0px 0px 0px;
+        text-align:center;
+        font-weight: bold;
+        font-size: 15px;
+        margin-left: 1px;
+        margin-left: 30px
+    }
+    .colpara-1{
+        margin-top: 15px;
+        font-family: 'Sometype Mono', monospace;
+        text-align: left;
+        font-weight: bold;
+        font-size:22px;
+        margin-left: 5px;
+    }
+    .colpara-2{
+        font-family: 'Roboto Mono', monospace;
+            font-weight: bold;
+    font-size: 42px;
+        text-align: left;
+        margin-left:5px;
+    }
+    .colpara-3{
+        margin-left:5px;
+        text-align:left;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .p1{
+        font-family: 'Roboto Slab', serif;
+        margin-top: 50px;
+        font-size: 140px;
+        text-align: center;
+        /* margin-left: 30px; */
+    }
+    .p2{
+        font-family: 'Roboto Slab', serif;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        /* margin-left: 30px; */
+    }
+    #carouselExampleCaptions{
+                margin-top: 50px;
+                width: 100%;
+    }
+    .fa-brands{
+        font-size: 25px;
+        margin-left: 18px;
+        color: white;
+        padding-left: 60px;
+    }
+    .card{
+        margin-bottom: 80px;
+        margin-left: 8px;
+      
+      
+    }
+    .btn1{
+        margin-left:35%;
+        margin-top: 5px;
+    }
+    .btn1:hover{
+     background-color: rgb(34, 26, 175);
+     
+    }
+   
+    .size{
+        margin-left: -5px;
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+    #Review{
+        margin-left: 10px;
+    }
+    
+    .card:hover {
+        transform: scale(1.1);
+        overflow: hidden;
+    }
+    
+}
+
+@media only screen and (max-width:600px){ 
+    .white{
+        position:fixed;
+        top:0;
+        background:rgb(252, 251, 251);
+        width:100%;
+        height:80px;
+      }
+      .white ul{
+        list-style-type:none;
+        padding:0;
+      }
+      
+      .white ul li{
+        display:inline-block;
+        width:100px;
+        color:red;
+      }
+      
+      .blue{
+        position:fixed;
+        top:0;
+        background:blue;
+        width:100%;
+        height:50px;
+      }
+    .hotelimage{
+        width:100%;
+        height: 40vh;
+        overflow: hidden;
+       margin-top: 10px;
+       margin-left: -0px;
+       /* padding: 30px; */
+     border-width: 2px;   
+    }   
+    .carouselpara{
+        margin-top: -350px;
+        font-size: 45px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .carouselpara1{
+        font-size: 18px;
+    }
+    .offcanvas-header{
+        margin-left: -20px;
+    }
+    .offcanvas-body{
+       text-align: center;
+    }   
+    .image2{
+        height: 350px;
+        width: 106%;
+        margin-top: 15px;
+        margin-left: 0px;
+        overflow: hidden;
+    }
+    .image3{
+        height: 350px;
+        width: 106%;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+    .colpara1{
+        margin-top: 15px;
+        font-family: 'Sometype Mono', monospace;
+        text-align: center;
+        font-weight: bold;
+        font-size:20px;
+        margin-left: 30px
+        
+    }
+    .colpara2{
+        font-family: 'Roboto Mono', monospace;
+            font-weight: bold;
+    font-size: 28px;
+        text-align: center;
+        margin-left: 30px
+    }
+    .colpara3{
+        padding: 0px 0px 0px 0px;
+        text-align:center;
+        font-weight: bold;
+        font-size: 15px;
+        margin-left: 1px;
+        margin-left: 30px
+    }
+    .colpara-1{
+        margin-top: 15px;
+        font-family: 'Sometype Mono', monospace;
+        text-align: left;
+        font-weight: bold;
+        font-size:22px;
+        margin-left: 5px;
+    }
+    .colpara-2{
+        font-family: 'Roboto Mono', monospace;
+            font-weight: bold;
+    font-size: 42px;
+        text-align: left;
+        margin-left:5px;
+    }
+    .colpara-3{
+        margin-left:5px;
+        text-align:left;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .p1{
+        font-family: 'Roboto Slab', serif;
+        margin-top: 50px;
+        font-size: 60px;
+        text-align: center;
+        /* margin-left: 30px; */
+    }
+    .p2{
+        font-family: 'Roboto Slab', serif;
+        font-size: 12px;
+        font-weight: bold;
+        text-align: center;
+        /* margin-left: 30px; */
+    }
+    /* .d-flex{
+        width:100%;
+
+     } */
+    #carouselExampleCaptions{
+                margin-top: 50px;
+                width: 100%;
+    }
+            
+    .footer{
+                display:block;
+                justify-content: space-around;
+                
+    }
+    .fa-brands{
+        font-size: 25px;
+        margin-left: 18px;
+        color: white;
+        padding-left: 60px;
+    }
+    .valet{
+        margin-top:-150px;
+        margin-left: 80px;
+        margin-bottom:10px;
+    }
+    .store{
+       
+        margin-left: 80px;
+        
+    }
+    .imagefooter{
+        margin-left: 140px;
+        margin-top: -700px;
+    }
+    .card{
+        margin-bottom: 80px;
+        margin-left: 8px;
+    
+      
+    }
+    .btn1{
+        margin-left: 27%;
+        margin-top: 5px;
+    }
+    .btn1:hover{
+     background-color: rgb(34, 26, 175);
+     
+    }
+    .up-arrow{
+        border: 1px solid;
+        border-radius: 140px;
+        background-color: rgb(252, 251, 250);
+        border-color: rgb(253, 252, 249);
+        padding: 1%;
+        float: right;
+        margin-top: 50px;
+       margin-left:-100px;
+        
+    }
+    .size{
+        margin-left: -5px;
+    }
+  
+    .p3{
+        font-family: 'Roboto Slab', serif;
+        margin-top: 45px;
+        font-size: 30px;
+        text-align: center;
+        margin-left: 30px;
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+    #Review{
+        margin-left: 10px;
+    }
+    
+    .card:hover {
+        transform: scale(1.1);
+        overflow: hidden;
+    }
+    
+}
+
+ 
+@media only screen and (min-width:768px){ 
+    .white{
+        position:fixed;
+        top:0;
+        background:rgb(252, 251, 251);
+        width:100%;
+        height:80px;
+      }
+      .white ul{
+        list-style-type:none;
+        padding:0;
+      }
+      
+      .white ul li{
+        display:inline-block;
+        width:100px;
+        color:red;
+      }
+      
+      .blue{
+        position:fixed;
+        top:0;
+        background:blue;
+        width:100%;
+        height:50px;
+      }
+    .offcanvas-header{
+        margin-left: -20px;
+    }
+    .offcanvas-body{
+       text-align: center;
+    }   
+    .image2{
+        height: 420px;
+        width: 100%;
+        margin-top: 15px;
+        margin-left: 0px;
+        overflow: hidden;
+    }
+    .image3{
+        height: 420px;
+        width: 100%;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+    .colpara1{
+        margin-top: 15px;
+        font-family: 'Sometype Mono', monospace;
+        text-align: center;
+        font-weight: bold;
+        font-size:22px;
+        margin-left: 30px
+        
+    }
+    .colpara2{
+        font-family: 'Roboto Mono', monospace;
+            font-weight: bold;
+    font-size: 42px;
+        text-align: center;
+        margin-left: 30px
+    }
+    .colpara3{
+        padding: 0px 0px 0px 0px;
+        text-align:center;
+        font-weight: bold;
+        font-size: 15px;
+        margin-left: 1px;
+        margin-left: 30px
+    }
+    .colpara-1{
+        margin-top: 15px;
+        font-family: 'Sometype Mono', monospace;
+        text-align: left;
+        font-weight: bold;
+        font-size:22px;
+        margin-left: 5px;
+    }
+    .colpara-2{
+        font-family: 'Roboto Mono', monospace;
+            font-weight: bold;
+    font-size: 42px;
+        text-align: left;
+        margin-left:5px;
+    }
+    .colpara-3{
+        margin-left:5px;
+        text-align:left;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .p1{
+        font-family: 'Roboto Slab', serif;
+        margin-top: 50px;
+        font-size: 150px;
+        text-align: center;
+        /* margin-left: 30px; */
+    }
+    .p2{
+        font-family: 'Roboto Slab', serif;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        /* margin-left: 30px; */
+    }
+    #carouselExampleCaptions{
+                margin-top: 50px;
+                width: 100%;
+    }
+
+    .fa-brands{
+        font-size: 25px;
+        margin-left: 18px;
+        color: white;
+        padding-left: 60px;
+    }
+    /* .valet{
+        margin-top:-150px;
+        margin-left: 80px;
+        margin-bottom:10px;
+    }
+    .store{
+       
+        margin-left: 80px;
+        
+    } */
+   
+    .card{
+        margin-bottom: 80px;
+        margin-left: 8px;
+      
+      
+    }
+    .btn1{
+        margin-left:43%;
+        margin-top: 5px;
+    }
+    .btn1:hover{
+     background-color: rgb(34, 26, 175);
+     
+    }
+   
+    .size{
+        margin-left: -5px;
+    }
+ 
+    html{
+        scroll-behavior: smooth;
+    }
+    #Review{
+        margin-left: 10px;
+    }
+    
+    .card:hover {
+        transform: scale(1.1);
+        overflow: hidden;
+    }
+  
+}
